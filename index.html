@@ -15,8 +15,60 @@
 </head>
 
 <body>
+  <header>
+    <h3>Kill the Boss</h3>
+  </header>
 
-  <div class="h1 bg-dark">Hello World</div>
+  <main class="bg-dark text-light">
+    <div class="container-fluid p-5">
+      <div id="players-draw" class="row">
+        <!-- <div class="col-6 bg-secondary col-md-3">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-between">
+              <div>Knight</div>
+              <div>🐄</div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div id="boss-health" class="progress">
+            <!-- <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100">100
+            </div> -->
+          </div>
+          <div>GOOEY BOY</div>
+          <div>
+            <div class="gooey-boy" onclick="attackBoss()">🐱‍🐉</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="col-6 bg-secondary col-md-6 p-3">
+          <div class="col-12 d-flex justify-content-between text-light">
+            <div>BUY POTION</div>
+            <div>20G</div>
+          </div>
+          <div class="col-12 d-flex justify-content-between text-light">
+            <div>BUY SAM</div>
+            <div>50G</div>
+          </div>
+          <div class="col-12 d-flex justify-content-between text-light">
+            <div>BUY JAKE</div>
+            <div>1000G</div>
+          </div>
+        </div>
+        <div class="col-6 d-flex align-items-end justify-content-end">
+          <button type="button" class="btn btn-danger" onclick="resetGame()">RESET</button>
+        </div>
+      </div>
+    </div>
+  </main>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
